@@ -1,0 +1,9 @@
+Manifest for Chroma
+====================
+repo init -u https://github.com/zephik/android_manifest.git -b lollipop-ras-mr1
+
+[@zephiK0](https://twitter.com/rascarlo) on Twitter
+
+Special thanks to:
+
+@rascarlo (https://github.com/rascarlo) and everybody else who I've cherry-picked from as well as lichti1901 for being a hybrid between Terminus & Rastapop.
