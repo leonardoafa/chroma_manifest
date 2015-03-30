@@ -3,7 +3,7 @@ Manifest for Chroma
 
 Chroma is a hybrid ROM suited to my needs with the primary code coming from Rastapop & Terminus. Chroma is created to suit my needs as I felt that Rastapop lacked a number of features and Terminus had a number of features that I did not need. 
 
-repo init -u https://github.com/zephik/android_manifest.git -b lollipop-ras-mr1
+repo init -u https://github.com/zephik/chroma_manifest.git -b 5.1
 
 [@zephiK0](https://twitter.com/zephiK0) on Twitter
 
