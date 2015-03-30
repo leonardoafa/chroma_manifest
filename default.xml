@@ -59,7 +59,7 @@ sync-j="6" />
 <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" clone-depth="1" />
 <project path="device/lge/mako" name="device/lge/mako" groups="device,mako" />
 <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" clone-depth="1" />
-<project path="device/moto/shamu" name="android_moto_shamu" groups="device,shamu" remote="chroma-aosp" revision= "lollipop-5.1.0" />
+<project path="device/moto/shamu" name="android_device_moto_shamu" groups="device,shamu" remote="chroma-aosp" revision= "lollipop-5.1.0" />
 <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu" clone-depth="1" />
 <project path="device/sample" name="device/sample" groups="pdk" />
 <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" />
@@ -496,7 +496,7 @@ sync-j="6" />
 <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk,tradefed" />
 <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
 <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" />
-<project path="system/core" name="android_system_core" groups="pdk" />
+<project path="system/core" name="android_system_core" groups="pdk"  remote="chroma-aosp" revision= "lollipop-5.1.0"/>
 <project path="system/extras" name="android_system_extras" groups="pdk" remote="chroma-aosp" revision= "lollipop-5.1.0" />
 <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
 <project path="system/media" name="platform/system/media" groups="pdk" />
