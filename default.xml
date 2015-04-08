@@ -29,13 +29,13 @@ sync-j="6" />
 <project path="developers/docs" name="platform/developers/docs" />
 <project path="developers/samples/android" name="platform/developers/samples/android" />
 <project path="development" name="platform/development" groups="pdk-cw-fs" />
-<project path="device/asus/deb" name="device/asus/deb" groups="device,flo" />
-<project path="device/asus/flo" name="device/asus/flo" groups="device,flo" />
+<project path="device/asus/deb" name="android_device_asus_deb" groups="device,flo" remote="chroma-aosp" revision= "lollipop-5.1.0" />
+<project path="device/asus/flo" name="android_device_asus_flo" groups="device,flo" remote="chroma-aosp" revision= "lollipop-5.1.0" />
 <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" clone-depth="1" />
 <project path="device/asus/fugu" name="device/asus/fugu" groups="device,fugu" />
 <project path="device/asus/fugu-kernel" name="device/asus/fugu-kernel" groups="device,fugu" clone-depth="1" />
 <project path="device/asus/grouper" name="device/asus/grouper" groups="device,grouper" />
-<project path="device/asus/tilapia" name="device/asus/tilapia" groups="device,grouper" />
+<project path="device/asus/tilapia" name="android_device_asus_tilapia" groups="device,grouper" remote="chroma-aosp" revision= "lollipop-5.1.0" />
 <project path="device/common" name="device/common" groups="pdk-cw-fs" />
 <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" />
 <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
@@ -62,7 +62,7 @@ sync-j="6" />
 <project path="device/moto/shamu" name="android_device_moto_shamu" groups="device,shamu" remote="chroma-aosp" revision= "lollipop-5.1.0" />
 <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu" clone-depth="1" />
 <project path="device/sample" name="device/sample" groups="pdk" />
-<project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" />
+<project path="device/samsung/manta" name="android_device_samsung_manta" groups="device,manta" remote="chroma-aosp" revision= "lollipop-5.1.0" />
 <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" />
 <project path="external/aac" name="platform/external/aac" groups="pdk" />
 <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs" />
@@ -256,7 +256,7 @@ sync-j="6" />
 <project path="external/robolectric" name="platform/external/robolectric" groups="pdk-cw-fs" />
 <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
 <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
-<project path="external/sepolicy" name="platform/external/sepolicy" groups="pdk" />
+<project path="external/sepolicy" name="android_external_sepolicy" groups="pdk" remote="chroma-aosp" revision= "lollipop-5.1.0" />
 <project path="external/sfntly" name="platform/external/sfntly" groups="pdk-cw-fs,qcom_msm8x26" />
 <project path="external/skia" name="platform/external/skia" groups="pdk-cw-fs,qcom_msm8x26" />
 <project path="external/smack" name="platform/external/smack" groups="pdk-cw-fs" />
