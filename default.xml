@@ -37,22 +37,10 @@ sync-j="6" />
 <project path="device/asus/grouper" name="device/asus/grouper" groups="device,grouper" />
 <project path="device/asus/tilapia" name="android_device_asus_tilapia" groups="device,grouper" remote="chroma-aosp" revision= "lollipop-5.1.0" />
 <project path="device/common" name="device/common" groups="pdk-cw-fs" />
-<project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" />
 <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
 <project path="device/generic/common" name="device/generic/common" groups="pdk" />
 <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" />
-<project path="device/generic/mips" name="device/generic/mips" groups="pdk" />
-<project path="device/generic/mini-emulator-arm64" name="device/generic/mini-emulator-arm64" groups="pdk" />
-<project path="device/generic/mini-emulator-armv7-a-neon" name="device/generic/mini-emulator-armv7-a-neon" groups="pdk" />
-<project path="device/generic/mini-emulator-mips" name="device/generic/mini-emulator-mips" groups="pdk" />
-<project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" groups="pdk" />
-<project path="device/generic/mini-emulator-x86_64" name="device/generic/mini-emulator-x86_64" groups="pdk" />
 <project path="device/generic/qemu" name="device/generic/qemu" />
-<project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
-<project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" />
-<project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
-<project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-<project path="device/google/atv" name="device/google/atv" groups="device,fugu" />
 <project path="device/htc/flounder" name="device/htc/flounder" groups="device,flounder" />
 <project path="device/htc/flounder-kernel" name="device/htc/flounder-kernel" groups="device,flounder" clone-depth="1" />
 <project path="device/lge/hammerhead" name="android_device_lge_hammerhead" groups="device,hammerhead"  remote="chroma-aosp" revision= "lollipop-5.1.0" />
