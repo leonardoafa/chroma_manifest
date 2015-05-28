@@ -10,7 +10,7 @@ sync-j="4" />
 fetch="https://bitbucket.org/" />
 
 <remote name="chroma"
-fetch="https://github.com/chroma"
+fetch="https://github.com/chroma-aosp"
 sync-j="6" />
 
 <remote name="cm"
