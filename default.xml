@@ -515,7 +515,7 @@ sync-j="6" />
 <project path="vendor/asus/" name="vendor_asus_n7-2012" remote="chroma" revision= "5.1"/>
 <project path="vendor/samsung/manta" name="vendor_samsung_manta" remote="chroma" revision= "5.1"/>
 <project path="vendor/moto/shamu" name="vendor_moto_shamu" remote="chroma" revision= "5.1"/>
-<project path="packages/apps/LockClock" name="android_packages_apps_Lockclock" remote="chroma" revision= "lollipop" />
+<project path="packages/apps/LockClock" name="android_packages_apps_Lockclock" remote="chroma" revision= "lp5.1" />
 <project path="vendor/chroma" name="android_vendor_chroma" remote="chroma" revision= "lollipop"/>
 <project path="external/google" name="android_external_google" remote="cm" revision= "cm-12.1"/>
 <project path="external/busybox" name="android_external_busybox" remote="cm" revision= "cm-12.1"/>
