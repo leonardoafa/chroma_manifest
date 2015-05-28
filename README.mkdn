@@ -4,7 +4,7 @@ Chroma is a lightweight AOSP ROM focused on battery, performance and stability.
 
 The philosophy of Chroma is to stay relatively close to Google's stock Lollipop with the additions of essential features that should have been included with stock Lollipop.
 
-    repo init -u https://github.com/zephik/chroma_manifest.git -b lp5.1
+    repo init -u https://github.com/chroma-aosp/chroma_manifest.git -b lp5.1
     repo sync
     source build/envsetup.sh
     lunch
