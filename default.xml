@@ -17,7 +17,7 @@ sync-j="6" />
 fetch="https://github.com/CyanogenMod"
 sync-j="6" />
 
-<project path="build" name="android_build" groups="pdk,tradefed" remote="chroma" revision= "lp5.1" >
+<project path="build" name="android_build" groups="pdk,tradefed" remote="chroma" revision="lp5.1" >
 <copyfile src="core/root.mk" dest="Makefile" />
 </project>
 <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -33,11 +33,11 @@ sync-j="6" />
 <project path="developers/samples/android" name="platform/developers/samples/android" />
 <project path="development" name="platform/development" groups="pdk-cw-fs" />
 <project path="device/common" name="device/common" groups="pdk-cw-fs" />
-<project path="device/lge/hammerhead" name="android_device_lge_hammerhead" groups="device,hammerhead"  remote="chroma" revision= "lp5.1" />
+<project path="device/lge/hammerhead" name="android_device_lge_hammerhead" groups="device,hammerhead"  remote="chroma" revision="lp5.1" />
 <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" clone-depth="1" />
-<project path="device/lge/mako" name="android_device_lge_mako" groups="device,mako"  remote="chroma" revision= "lp5.1" />
+<project path="device/lge/mako" name="android_device_lge_mako" groups="device,mako"  remote="chroma" revision="lp5.1" />
 <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" clone-depth="1" />
-<project path="device/moto/shamu" name="android_device_moto_shamu" groups="device,shamu" remote="chroma" revision= "lp5.1" />
+<project path="device/moto/shamu" name="android_device_moto_shamu" groups="device,shamu" remote="chroma" revision="lp5.1" />
 <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu" clone-depth="1" />
 <project path="device/sample" name="device/sample" groups="pdk" />
 <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" />
@@ -171,7 +171,7 @@ sync-j="6" />
 <project path="external/libopus" name="platform/external/libopus" groups="pdk" />
 <project path="external/libpcap" name="platform/external/libpcap" groups="pdk,pdk-cw-fs" />
 <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk-cw-fs" />
-<project path="external/libpng" name="android_external_libpng" groups="pdk" remote="chroma" revision= "lp5.1"/>
+<project path="external/libpng" name="android_external_libpng" groups="pdk" remote="chroma" revision="lp5.1"/>
 <project path="external/libseccomp-helper" name="platform/external/libseccomp-helper" groups="pdk-cw-fs" />
 <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" />
 <project path="external/libsepol" name="platform/external/libsepol" groups="pdk" />
@@ -233,7 +233,7 @@ sync-j="6" />
 <project path="external/robolectric" name="platform/external/robolectric" groups="pdk-cw-fs" />
 <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
 <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
-<project path="external/sepolicy" name="android_external_sepolicy" groups="pdk" remote="chroma" revision= "lp5.1" />
+<project path="external/sepolicy" name="android_external_sepolicy" groups="pdk" remote="chroma" revision="lp5.1" />
 <project path="external/sfntly" name="platform/external/sfntly" groups="pdk-cw-fs,qcom_msm8x26" />
 <project path="external/skia" name="platform/external/skia" groups="pdk-cw-fs,qcom_msm8x26" />
 <project path="external/smack" name="platform/external/smack" groups="pdk-cw-fs" />
@@ -266,8 +266,8 @@ sync-j="6" />
 <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
 <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
 <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
-<project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="chroma" revision= "lp5.1"  />
-<project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs" remote="chroma" revision= "lp5.1" />
+<project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="chroma" revision="lp5.1"  />
+<project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs" remote="chroma" revision="lp5.1" />
 <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
 <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
 <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -276,7 +276,7 @@ sync-j="6" />
 <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs" />
 <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs" />
 <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs" />
-<project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="chroma" revision= "lp5.1" />
+<project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="chroma" revision="lp5.1" />
 <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" />
 <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs" />
 <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs" />
@@ -289,18 +289,18 @@ sync-j="6" />
 <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" groups="pdk-cw-fs" />
 <project path="frameworks/opt/net/ims" name="platform/frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs" />
 <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" groups="pdk-cw-fs" />
-<project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" groups="pdk"remote="chroma" revision= "lp5.1"/>
+<project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" groups="pdk"remote="chroma" revision="lp5.1"/>
 <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" />
 <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs" />
 <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs" />
-<project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="chroma" revision= "lp5.1"/>
+<project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="chroma" revision="lp5.1"/>
 <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs" />
 <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs" />
 <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs" />
 <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
 <project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs" />
 <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs" />
-<project path="frameworks/webview" name="android_frameworks_webview" groups="pdk-cw-fs" remote="chroma" revision= "lp5.1" />
+<project path="frameworks/webview" name="android_frameworks_webview" groups="pdk-cw-fs" remote="chroma" revision="lp5.1" />
 <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs" />
 <project path="hardware/akm" name="platform/hardware/akm" />
 <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" />
@@ -348,7 +348,7 @@ sync-j="6" />
 <project path="ndk" name="platform/ndk" />
 <project path="packages/apps/AudioFX" name="android_packages_apps_AudioFX" remote="chroma" revision= "cm-12.1" />
 <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
-<project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="chroma" revision= "lp5.1" />
+<project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="chroma" revision="lp5.1" />
 <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
 <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
 <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
@@ -356,17 +356,17 @@ sync-j="6" />
 <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" />
 <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
 <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs" />
-<project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="chroma" revision= "lp5.1" />
-<project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" remote="chroma" revision= "lp5.1" />
-<project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="chroma" revision= "lp5.1" />
-<project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="chroma" revision= "lp5.1" />
+<project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="chroma" revision="lp5.1" />
+<project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" remote="chroma" revision="lp5.1" />
+<project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="chroma" revision="lp5.1" />
+<project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="chroma" revision="lp5.1" />
 <project path="packages/apps/Email" name="platform/packages/apps/Email" />
 <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
 <project path="packages/apps/FMRadio" name="platform/packages/apps/FMRadio" />
 <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
-<project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="chroma" revision= "lp5.1" />
+<project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="chroma" revision="lp5.1" />
 <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
-<project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="chroma" revision= "lp5.1" />
+<project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="chroma" revision="lp5.1" />
 <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
 <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
 <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="chroma" revision="lp5.1"/>
@@ -377,14 +377,14 @@ sync-j="6" />
 <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
 <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
 <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
-<project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="chroma" revision= "lp5.1" />
+<project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="chroma" revision="lp5.1" />
 <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
 <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
 <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
 <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
 <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-<project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="chroma" revision= "lp5.1" />
-<project path="packages/apps/SlimLauncher" name="android_packages_apps_SlimLauncher" remote="chroma" revision= "lp5.1" />
+<project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="chroma" revision="lp5.1" />
+<project path="packages/apps/SlimLauncher" name="android_packages_apps_SlimLauncher" remote="chroma" revision="lp5.1" />
 <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
 <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
 <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -396,23 +396,23 @@ sync-j="6" />
 <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" />
 <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
 <project path="packages/experimental" name="platform/packages/experimental" />
-<project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="chroma" revision= "lp5.1" />
+<project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="chroma" revision="lp5.1" />
 <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
 <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
 <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" groups="pdk-cw-fs" />
 <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" groups="pdk-cw-fs" />
-<project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="chroma" revision= "lp5.1" />
-<project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="chroma" revision= "lp5.1" />
+<project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="chroma" revision="lp5.1" />
+<project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="chroma" revision="lp5.1" />
 <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
-<project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="chroma" revision= "lp5.1" />
+<project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="chroma" revision="lp5.1" />
 <project path="packages/providers/TvProvider" name="platform/packages/providers/TvProvider" />
 <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" groups="pdk-cw-fs" />
 <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" />
 <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" />
 <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
 <project path="packages/services/Mms" name="platform/packages/services/Mms" />
-<project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="chroma" revision= "lp5.1" />
-<project path="packages/services/Telephony" name="android_packages_services_Telephony"  remote="chroma" revision= "lp5.1" />
+<project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="chroma" revision="lp5.1" />
+<project path="packages/services/Telephony" name="android_packages_services_Telephony"  remote="chroma" revision="lp5.1" />
 <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
 <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
 <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" />
@@ -475,8 +475,8 @@ sync-j="6" />
 <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk,tradefed" />
 <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
 <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" />
-<project path="system/core" name="android_system_core" groups="pdk"  remote="chroma" revision= "lp5.1"/>
-<project path="system/extras" name="android_system_extras" groups="pdk" remote="chroma" revision= "lp5.1" />
+<project path="system/core" name="android_system_core" groups="pdk"  remote="chroma" revision="lp5.1"/>
+<project path="system/extras" name="android_system_extras" groups="pdk" remote="chroma" revision="lp5.1" />
 <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
 <project path="system/media" name="platform/system/media" groups="pdk" />
 <project path="system/netd" name="platform/system/netd" groups="pdk" />
@@ -497,11 +497,11 @@ sync-j="6" />
 <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
-<project path="vendor/lge/" name="vendor_lge" remote="chroma" revision= "lp5.1"/>
-<project path="vendor/asus/" name="vendor_asus" remote="chroma" revision= "lp5.1"/>
-<project path="vendor/moto/shamu" name="vendor_moto_shamu" remote="chroma" revision= "lp5.1"/>
-<project path="vendor/chroma" name="android_vendor_chroma" remote="chroma" revision= "lp5.1"/>
-<project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="chroma" revision= "lp5.1" />
+<project path="vendor/lge/" name="vendor_lge" remote="chroma" revision="lp5.1"/>
+<project path="vendor/asus/" name="vendor_asus" remote="chroma" revision="lp5.1"/>
+<project path="vendor/moto/shamu" name="vendor_moto_shamu" remote="chroma" revision="lp5.1"/>
+<project path="vendor/chroma" name="android_vendor_chroma" remote="chroma" revision="lp5.1"/>
+<project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="chroma" revision="lp5.1" />
 <project path="external/android-visualizer" name="android_external_android-visualizer" remote="cm" revision= "cm-12.1"/>
 <project path="external/busybox" name="android_external_busybox" remote="cm" revision= "cm-12.1"/>
 <project path="external/google" name="android_external_google" remote="cm" revision= "cm-12.1"/>
